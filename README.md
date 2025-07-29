@@ -1,2 +1,2 @@
 # narki-life
-The satirical life toolkit – Chaos Planner, Exit Generator, etc.
+life is good, thanks GOD
