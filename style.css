@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
-  background-color: #000011;
-  color: #00ffe0;
+  background-color: #001f33; /* deep ocean blue */
+  color: #a0faff;            /* soft cyan text */
   font-family: 'Press Start 2P', monospace;
   margin: 0;
   padding: 2rem;
@@ -11,30 +11,69 @@ body {
 }
 
 h1 {
-  color: #ff00ff;
-  text-shadow: 0 0 4px #ff00ff, 0 0 12px #ff66cc;
+  color: #00eaff;
+  text-shadow: 0 0 6px #00cce0, 0 0 14px #00cce0;
   font-size: 1.4rem;
   margin-bottom: 2rem;
 }
 
-h1 .highlight {
-  background: linear-gradient(90deg, #ff00cc, #00ffff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .tagline {
   font-size: 0.85rem;
-  color: #ffea00;
+  color: #9eeeff;
   margin-bottom: 2.5rem;
-  text-shadow: 0 0 4px #ffea00;
+  text-shadow: 0 0 3px #7edfff;
 }
 
-.glitch-section {
+.section {
   margin: 3rem auto;
   padding: 1.5rem;
-  border: 2px solid #00ffee;
-  background: rgba(0, 255, 255, 0.04);
+  border: 2px solid #00c6ff;
+  background: rgba(0, 128, 255, 0.05);
+  box-shadow: inset 0 0 12px #00c6ff33;
+  max-width: 500px;
+  border-radius: 14px;
+}
+
+h2 {
+  color: #00eaff;
+  text-shadow: 0 0 4px #00cce0;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 0.75rem;
+  color: #ddfaff;
+  line-height: 1.9;
+}
+
+a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  font-size: 0.75rem;
+  background: #00f6ff;
+  color: #001f33;
+  text-decoration: none;
+  border: 2px solid #a0faff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00f6ff80;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  background: #a0faff;
+  color: #003344;
+  box-shadow: 0 0 20px #00f6ff, 0 0 30px #00cce0;
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: 5rem;
+  font-size: 0.7rem;
+  color: #88ccdd;
+  text-shadow: 0 0 3px #446677;
+}  background: rgba(0, 255, 255, 0.04);
   box-shadow: inset 0 0 12px #00ffee;
   max-width: 500px;
   border-radius: 14px;
